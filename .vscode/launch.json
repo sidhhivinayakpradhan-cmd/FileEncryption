@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Encryption App (args demo)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/file_encrypt_improved",
+            "args": [
+                "e",
+                "input.txt",
+                "encrypted.bin"
+            ],
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "externalConsole": true
+        }
+    ]
+}
